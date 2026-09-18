@@ -1,17 +1,10 @@
 # cook your dish here
-s = input()
+s = input().strip()
 
 count = {}
-for ch in s:
-    if ch.isalpha():
-        ch = ch.lower()
-        count[ch] = count.get(ch, 0) + 1
+for i in range(len(s) - 1):
+    pair = s[i:i+2]
+    count[pair] = count.get(pair, 0) + 1
 
-best = None
-best_count = -1
-for letter in sorted(count.keys()):
-    if count[letter] > best_count:
-        best_count = count[letter]
-        best = letter
-
-print(best)
+result = sum(1 for v in count.values() if v > 1)
+print(result)
