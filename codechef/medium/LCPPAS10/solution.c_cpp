@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	cout<<"Learn Coding on CodeChef";
-	return 0;
-	
+  cout<<12*9;
+  
+  return 0;
 }
