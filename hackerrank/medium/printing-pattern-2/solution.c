@@ -1,26 +1,29 @@
 #include <stdio.h>
-
-void calculate_the_maximum(int n, int k) {
-    int maxAnd = 0, maxOr = 0, maxXor = 0;
-
-    for (int a = 1; a <= n; a++) {
-        for (int b = a + 1; b <= n; b++) {
-            int andVal = a & b;
-            int orVal = a | b;
-            int xorVal = a ^ b;
-
-            if (andVal < k && andVal > maxAnd) maxAnd = andVal;
-            if (orVal < k && orVal > maxOr) maxOr = orVal;
-            if (xorVal < k && xorVal > maxXor) maxXor = xorVal;
-        }
-    }
-
-    printf("%d\n%d\n%d\n", maxAnd, maxOr, maxXor);
-}
+#include <stdlib.h>
 
 int main() {
-    int n, k;
-    scanf("%d %d", &n, &k);
-    calculate_the_maximum(n, k);
+    int n;
+    scanf("%d", &n);
+
+    int size = 2 * n - 1;
+
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            int top = i;
+            int left = j;
+            int bottom = size - 1 - i;
+            int right = size - 1 - j;
+
+            int min = top;
+            if (left < min) min = left;
+            if (bottom < min) min = bottom;
+            if (right < min) min = right;
+
+            printf("%d", n - min);
+            if (j < size - 1) printf(" ");
+        }
+        printf("\n");
+    }
+
     return 0;
 }
