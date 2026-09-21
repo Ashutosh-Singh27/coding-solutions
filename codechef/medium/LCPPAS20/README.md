@@ -4,24 +4,42 @@
 
 ## Problem
 
-_Description not available._
+### Print Squares
+
+Write a program to output the squares (using multiplication) of numbers from 1 to 5 on separate lines.
+
+### Sample 1:
+Input
+Output
+
+```
+
+```
+
+```
+1 - 1  
+2 - 4  
+3 - 9  
+4 - 16  
+5 - 25  
+```
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:57:50.797Z  
+**Submitted:** 2026-09-21T16:01:43.491Z  
 
 ```c_cpp
-#include <iostream>
+ #include <iostream>
 using namespace std;
 
 int main() {
-    cout<<"I"<<endl<<"love"<<endl<<"CodeChef";
+	cout<<"1 - "<<1*1<<endl<<"2 - "<<2*2<<endl<<"3 - "<<3*3<<endl<<"4 - "<<4*4<<endl<<"5 - "<<5*5;
 
-    return 0;
 }
+
 ```
 
 ---
