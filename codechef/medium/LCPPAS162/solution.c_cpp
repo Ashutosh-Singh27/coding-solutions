@@ -4,14 +4,11 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
-    int sum = 0;
-    int product = 1;
+    int count = 0;
     while (n > 0) {
-        int d = n % 10;
-        sum += d;
-        product *= d;
+        count++;
         n /= 10;
     }
-    cout << sum << " " << product;
+    cout << count;
     return 0;
 }
