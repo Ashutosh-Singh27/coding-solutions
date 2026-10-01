@@ -54,9 +54,9 @@ An input string is valid if:
 ## Solution
 
 **Language:** Java  
-**Runtime:** 3 ms (beats 85.90%)  
-**Memory:** 43.5 MB (beats 15.05%)  
-**Submitted:** 2026-09-28T11:42:24.525Z  
+**Runtime:** 3 ms (beats 85.88%)  
+**Memory:** 43.3 MB (beats 40.74%)  
+**Submitted:** 2026-10-01T15:43:36.629Z  
 
 ```java
 import java.util.ArrayDeque;
