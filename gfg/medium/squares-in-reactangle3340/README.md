@@ -31,7 +31,7 @@ Explanation: One square of size 11 x 11, five squares of size 2 x 2, and two squ
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T17:53:20.400Z  
+**Submitted:** 2026-10-12T17:53:25.138Z  
 
 ```py
 class Solution:
