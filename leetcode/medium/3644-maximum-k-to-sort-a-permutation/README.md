@@ -53,9 +53,9 @@ Only `k = 0` allows sorting since no greater `k` allows the required swaps where
 ## Solution
 
 **Language:** Python  
-**Runtime:** 31 ms (beats 62.38%)  
-**Memory:** 32.1 MB (beats 32.62%)  
-**Submitted:** 2026-10-29T11:15:48.853Z  
+**Runtime:** 32 ms (beats 54.43%)  
+**Memory:** 32 MB (beats 32.63%)  
+**Submitted:** 2026-10-30T08:17:09.768Z  
 
 ```py
 class Solution:
