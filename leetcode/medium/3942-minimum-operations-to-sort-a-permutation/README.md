@@ -62,9 +62,9 @@ It is impossible to reach `[0, 1, 2, 3]`. Thus, the answer is -1.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 64 ms (beats 80.67%)  
-**Memory:** 32.5 MB (beats 5.09%)  
-**Submitted:** 2026-10-30T08:20:31.270Z  
+**Runtime:** 73 ms (beats 70.62%)  
+**Memory:** 32.4 MB (beats 5.09%)  
+**Submitted:** 2026-10-30T08:19:42.892Z  
 
 ```py
 from typing import List
