@@ -76,9 +76,9 @@ Can you solve this in `O(nlog(n))`?
 ## Solution
 
 **Language:** Python  
-**Runtime:** 900 ms  
-**Memory:** 19.4 MB (beats 100.00%)  
-**Submitted:** 2026-11-01T08:16:45.888Z  
+**Runtime:** 916 ms  
+**Memory:** 19.6 MB (beats 100.00%)  
+**Submitted:** 2026-11-01T10:12:35.737Z  
 
 ```py
 class Solution:
