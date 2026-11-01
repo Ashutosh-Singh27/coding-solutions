@@ -62,7 +62,7 @@ To  **merge**  two integers, concatenate all the decimal digits of the first int
 **Language:** Python  
 **Runtime:** 3 ms (beats 33.33%)  
 **Memory:** 19.1 MB (beats 100.00%)  
-**Submitted:** 2026-11-01T08:09:01.611Z  
+**Submitted:** 2026-11-01T10:12:05.523Z  
 
 ```py
 class Solution:
