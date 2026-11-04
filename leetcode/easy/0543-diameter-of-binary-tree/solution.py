@@ -11,4 +11,4 @@ class Solution:
             return 1 + max(l, r)
 
         height(root)
-        return self.bes
+        return self.best
