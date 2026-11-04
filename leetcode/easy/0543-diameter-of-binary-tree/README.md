@@ -39,9 +39,9 @@ Output: 1
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 18.8 MB  
-**Submitted:** 2026-11-04T14:34:29.126Z  
+**Runtime:** 5 ms (beats 43.51%)  
+**Memory:** 22 MB (beats 78.96%)  
+**Submitted:** 2026-11-04T14:34:53.880Z  
 
 ```py
 class Solution:
@@ -57,7 +57,7 @@ class Solution:
             return 1 + max(l, r)
 
         height(root)
-        return self.bes
+        return self.best
 ```
 
 ---
